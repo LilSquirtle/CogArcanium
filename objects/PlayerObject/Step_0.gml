@@ -145,17 +145,48 @@ if(lastTiletype >= 0 && lastTiletype != tiletype)
 {
 	if(tiletype == LOCATION1)
 	{
-		global.playerTileX = 42;
-		global.playerTileY = 16;
+		if(room == cave_north_main)
+		{		
+			global.playerTileX = 105;
+		
+		global.playerTileY = 8;
+		}
 		moving = false;
-		room_goto(MainArea_Loc1);
+		room_goto(Overworld);
 	}
 	else if(tiletype == LOCATION2)
 	{
-		global.playerTileX = 6;
-		global.playerTileY = 5;
+		if(room == Overworld)
+		{
+			global.playerTileX = 12;
+			global.playerTileY = 45;
+		}
+		else if(room == cave_north_lower)
+		{
+			global.playerTileX = 42;
+			global.playerTileY = 20;
+		}
+		else
+		{
+			global.playerTileX = 5;
+			global.playerTileY = 6;
+		}
 		moving = false;
-		room_goto(Cave_Loc2);
+		room_goto(cave_north_main);
+	}
+	else if(tiletype == LOCATION3)
+	{
+		global.playerTileX = 9;
+		global.playerTileY = 10;
+		moving = false;
+		room_goto(cave_north_lower);
+	}
+	else if(tiletype == LOCATION4)
+	{
+		global.playerTileX = 9;
+		global.playerTileY = 10;
+		moving = false;
+		room_goto(cave_north_lower);
 	}
 }
 lastTiletype = tiletype;

@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0e4044bd-e489-4e0c-a326-39b2ababdb9f",
+            "Value": {
+                "id": "9e6f4785-e132-4b3e-af86-6ac54a2d10a0",
+                "resourcePath": "rooms\\cave_north_lower\\cave_north_lower.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1155f5f5-c33e-44cb-a01f-9aebec9d5de9",
             "Value": {
                 "id": "1065bdf3-ccd2-4443-88f6-6178f6746f5a",
@@ -76,6 +84,14 @@
                 "id": "72c001a7-a257-4210-9caf-a9fddc56ba2e",
                 "resourcePath": "views\\1d252552-8493-4ef1-9b42-9455f32cea06.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1fd95e62-aab9-46a9-a838-f5691d200601",
+            "Value": {
+                "id": "3e7908a5-8e21-4e9d-817c-2ddb7d95a3b1",
+                "resourcePath": "sprites\\terrain3\\terrain3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,11 +207,27 @@
             }
         },
         {
+            "Key": "55f95403-ce84-4f6c-8b62-b2978eca63b1",
+            "Value": {
+                "id": "2651fbe9-a60f-45f8-883d-243dd433788a",
+                "resourcePath": "tilesets\\terrain3_tileset\\terrain3_tileset.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "628b17d5-1607-4602-b6c8-d0535c38cf20",
             "Value": {
                 "id": "6c944fc6-20f5-43fb-a348-58c469f057b7",
                 "resourcePath": "scripts\\GetTileCollision\\GetTileCollision.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "69eb74d9-5f72-4b30-87fd-298766db5789",
+            "Value": {
+                "id": "6e303616-06e1-4d76-94b6-d09e3932c4dc",
+                "resourcePath": "rooms\\cave_north_main\\cave_north_main.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -316,6 +348,14 @@
                 "id": "e9020d06-4ed6-4f3e-8dba-4edeec820b90",
                 "resourcePath": "views\\c24e4a53-d0a6-404c-b443-ac29ed1697f1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c44e18ef-b3a9-45f2-919a-a60922a3aec7",
+            "Value": {
+                "id": "eda9cf53-475f-49cf-a26c-c63a50975133",
+                "resourcePath": "rooms\\Overworld\\Overworld.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

@@ -1,2 +1,2 @@
-global.playerTileX = 1;
-global.playerTileY = 1;
+global.playerTileX = 105;
+global.playerTileY = 75;
