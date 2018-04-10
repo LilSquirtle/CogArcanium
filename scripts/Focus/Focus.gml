@@ -1,8 +1,8 @@
 //Focus script
 
-var character = argument0;
-var target = argument1;
+//var character = argument0;
+//var target = argument1;
 
-var boost = character.mag;
+//var boost = character.mag;
 
-character.statBoost(Strength, boost);
+//character.statBoost(Strength, boost);

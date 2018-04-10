@@ -1,25 +1,25 @@
 get_input();
-if (keyboard_check_pressed(ord("D"))){
-	x+=50;
+if (keyboard_check_pressed(vk_right)){
+	x+=95;
 }
-if (keyboard_check_pressed(ord("A"))){
-	x-=50
+if (keyboard_check_pressed(vk_left)){
+	x-=95
 }
-if (x<50){
-	x=50;
+if (x<200){
+	x=200;
 }
-if (x>150){
-	x=150;
+if (x>390){
+	x=390;
 }
-if (keyboard_check_pressed(ord("E")))&&(playerTurn==1)&&(!instance_exists(objectTextBox)){
+if (keyboard_check_pressed(vk_enter)&&(playerTurn==1)&&(!instance_exists(objectTextBox))){
 	playerTurn=0;
-	if (x==50){
+	if (x = 200){
 		attack();
 	}
-	if (x=100){
+	if (x = 295){
 		heal();
 	}
-	if (x=150){
+	if (x = 390){
 		runaway();
 	}
 }

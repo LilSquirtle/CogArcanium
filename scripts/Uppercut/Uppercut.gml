@@ -1,8 +1,8 @@
 //Uppercut script
 
-var character = argument0;
-var target = argument1;
+//var character = argument0;
+//var target = argument1;
 
-var damage = character.str * 2;
+//var damage = character.str * 2;
 
-target.takeDamage(damage, DamageType.Physical);
+//target.takeDamage(damage, DamageType.Physical);

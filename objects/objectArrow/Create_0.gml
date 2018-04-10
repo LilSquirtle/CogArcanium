@@ -1,7 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-x=50;
-y=165;
+x=390;
+y=592;
 globalvar playerTurn;
 playerTurn=1;
 isEnemyTurn=0;

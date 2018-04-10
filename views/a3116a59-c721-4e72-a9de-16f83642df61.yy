@@ -7,7 +7,6 @@
         "98008121-f6b1-4694-8faa-d659002673a8",
         "0cd1e7c5-5ded-4ee4-9d58-4b1041f06d29",
         "9ef290aa-ddcb-4679-a96f-5edd5a82b166",
-        "31647d9a-ab47-4253-9688-dca48a7cb56a",
         "199c6081-239d-415a-81c6-170d83f627d5",
         "63e2c662-73a1-4637-a00b-2bd1975bb659",
         "3eb947ea-3a1d-42f9-8d17-dc576ddf64bb",
@@ -17,7 +16,10 @@
         "126a1076-d3b6-4424-95b2-ec1d03cee5d8",
         "b87006b0-4030-4391-9ee1-95152718156e",
         "59a75a83-53e8-4802-ac6d-be065f58159b",
-        "08ae3af4-81c8-4a58-bfc3-d4cf995ead99"
+        "08ae3af4-81c8-4a58-bfc3-d4cf995ead99",
+        "b821dd4e-d6df-4689-905a-f42663dfd542",
+        "f1ccb380-2dea-446d-b277-8cb54b67a073",
+        "2e4215e4-1394-4049-8d59-639c2a6218ce"
     ],
     "filterType": "GMScript",
     "folderName": "trenton_scripts",

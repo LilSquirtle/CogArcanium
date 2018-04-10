@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 message[0]="Error, bug encountered";
 message_current=0;
 message_end=1;

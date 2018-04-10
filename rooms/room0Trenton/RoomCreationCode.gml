@@ -1,1 +1,0 @@
-textBox("Welcome to this game","Your objective is to kill slimes","They will try to run away","Kill them before they can get away","Hunt them down","All of them","No survivors");

@@ -1,13 +1,11 @@
-/// @description Insert description here
-// You can write your code in this editor
 draw_set_color(fadeColor);
 draw_set_alpha(image_alpha);
 
 if(room!=target){
 	image_alpha+=fadeSpeed;
 	if(image_alpha==1){
-		objectPlayer.x=xx;
-		objectPlayer.y=yy;
+		global.prevX=xx;
+		global.prevY=yy;
 		room_goto(target);
 	}
 }else{
@@ -16,5 +14,5 @@ if(room!=target){
 		instance_destroy();
 	}
 }
-draw_rectangle(0,0,view_wport*2,view_hport*2,false);
+draw_rectangle(0,0,window_get_width(),window_get_height(),false);
 draw_set_alpha(1);

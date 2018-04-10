@@ -1,3 +1,41 @@
+Debug_Shortcuts();
+
+//~*~*~*~*~*~*~Code from Trenton*~*~*~*~*~*~*~
+if (!instance_exists(objectFade)){
+	if(keyboard_check_pressed(ord("P"))&&(room!=pauseRoom)&&(room!=battle)){
+		global.prevX = x/16;
+		global.prevY = y/16;
+		fadeout(pauseRoom,c_white,.05,x,y);
+	}
+	if(keyboard_check_pressed(ord("P"))&&(room==pauseRoom)){
+		global.prevX = x/16;
+		global.prevY = y/16;
+		fadeout(Overworld,c_white,.05,x,y);
+	}
+}
+if(moving)
+{
+	var rng = irandom(steps);
+	if((rng == steps) && (steps <= 850))
+	{
+		fadeout(battle,c_white,.025,x,y);
+		
+		steps = 1000;
+	}
+	else
+	{
+		steps--;
+	}
+}
+//~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+//this needs fixed---------------------
+if(room == MainArea_Loc1)
+{
+	x = 59;
+	y = 169;
+}
+//--------------------------------------
+
 dt = delta_time / 1000000;
 
 if(delay > 0)
@@ -112,10 +150,6 @@ else
 		moveAmount = 0;
 		tilex -= 1;
 	}	
-	else if(keyboard_check(vk_space))
-	{
-		show_debug_message(GetTileType(mapID, mouse_x, mouse_y));
-	}
 	else if(keyboard_check(vk_nokey))
 	{
 		image_speed = 0;
@@ -192,3 +226,12 @@ if(lastTiletype >= 0 && lastTiletype != tiletype)
 lastTiletype = tiletype;
 
 camera_set_view_pos(view_camera[0], x - 240 / 2, y - 160 / 2);
+
+
+//open pauseMenu + saves player position
+//if(keyboard_check_pressed(ord("P")) && (room == Overworld)) 
+//{
+//	global.prevX = x/16;
+//	global.prevY = y/16;
+//	room_goto(pauseRoom);
+//}

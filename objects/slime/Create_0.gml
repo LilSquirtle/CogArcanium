@@ -1,0 +1,2 @@
+enemyStats();
+enemyName="Basic Slime";

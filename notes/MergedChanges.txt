@@ -1,0 +1,11 @@
+- various debugging things/shortcuts (sort of) that can be found in the Debug_Shortcuts script
+- changed how the menu screen looks a bit
+- button_new_game object draws the sprite for the game title (because I didn't know where else to put it)
+- clicking the new game button goes to the room Overworld
+- added buttons to the pauseMenu room
+- abilities don't actually do anything because there are undefined things so I just commented everything out
+- PlayerObject can check for game_end event if escape is pressed
+
+
+// Things to fix
+- issue of returning to the same spot in Overworld after battling

@@ -1,6 +1,6 @@
 ///@desc textbox(messages...)
 ///@arg messages...
-var box = instance_create_depth(x,y,0,objectTextBox);
+var box = instance_create_depth(x,y,-10,objectTextBox);
 for (var i=0;i<argument_count;i++){
 	box.message[i]=argument[i];
 	

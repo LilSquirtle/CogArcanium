@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "268e5cfd-7e00-4d92-b96c-9652df7a9e51"
+        "268e5cfd-7e00-4d92-b96c-9652df7a9e51",
+        "f11a6319-8b24-4008-9f37-98638b3831cb"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,6 +26,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
+{"name": "inst_3FFDD703","id": "f11a6319-8b24-4008-9f37-98638b3831cb","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3FFDD703","objId": "479c756c-72cf-4c14-be12-bf55a068d68c","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 192,"y": 160},
 {"name": "inst_65BAB240","id": "268e5cfd-7e00-4d92-b96c-9652df7a9e51","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_65BAB240","objId": "a8aa6864-c666-40b3-aab3-2b11255950fb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 96}
             ],
             "layers": [
@@ -45,7 +47,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": false,
+            "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -88,7 +90,7 @@
             },
             "tilesetId": "b5fc4c04-707c-467c-bd2c-29539f68570f",
             "userdefined_depth": false,
-            "visible": false,
+            "visible": true,
             "x": 0,
             "y": 0
         },

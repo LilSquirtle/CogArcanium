@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "enemySpawner3",
     "eventList": [
-        {
-            "id": "0e8f47c3-3ee4-476d-945e-14e2c5dbdd01",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "e344cc19-8df6-4459-a07e-f3349b41c995",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "42d21490-88b0-46f6-a9cb-79cf103471eb"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

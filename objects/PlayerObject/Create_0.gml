@@ -1,3 +1,22 @@
+//global.playerTileX = 105;
+//global.playerTileY = 75;
+global.prevX = 0;
+global.prevY = 0;
+
+
+//~*~*~*~*~*~*~Code from Trenton*~*~*~*~*~*~*~
+hspd = 0;
+vspd = 0;
+//len = 0;
+//state = move_state();
+playerStats();
+face = 0;
+steps = 100;
+lastRoom = room;
+globalvar currentEnemy;
+currentEnemy = slime;
+//~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
 image_speed = 0;
 walkSpeed = 10;
 //Directions
@@ -35,3 +54,4 @@ LOCATION5 = 12;
 LOCATION6 = 13;
 LOCATION7 = 14;
 LOCATION8 = 15;
+

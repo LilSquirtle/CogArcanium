@@ -1,21 +1,21 @@
 Menu Usage Documention
-Implemetion by Rya G Tollefson.
+Implemention by Ryan G Tollefson.
 
 Each button has a sprite 4 frames. (yes order is important)
-	1.) defualt main menu
-	2.) mosue over main menu 
-	3.) defualt mosue over
-	4.)	mosue over mosue over
+	1.) default main menu
+	2.) mouse over main menu 
+	3.) default mouse over
+	4.)	mouse over mouse over
 	
 Each button has 4 events
-	1.) Create - selects the appropaite defualt frame
+	1.) Create - selects the appropriate default frame
 	2.) Left Mouse click - functionality of the script
 	3.) Mouse Enter - Switch to mouse over frame
-	4.) Mouse Leave - Switch to defualt frame
+	4.) Mouse Leave - Switch to default frame
 	
 Other things to Note:
 	-the new game button refence room0 to start a new game
 	-for a room to use the in-game menu they must include
 		-a layer for the buttons named "menu_layer"
-		-a in_game_menu_controller object
+		-an in_game_menu_controller object
 	-save/load are very basic right now, may need revisted.
