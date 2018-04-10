@@ -5,7 +5,7 @@ if(keyboard_check_pressed(vk_alt))
 }
 
 //exit game
-else if(keyboard_check_pressed(ord("x"))) game_end();
+else if(keyboard_check_pressed(ord("X"))) game_end();
 
 //Andrew's debugging thing, but instead of space, it's ctrl
 else if(keyboard_check(vk_control))

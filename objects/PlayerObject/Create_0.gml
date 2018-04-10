@@ -1,7 +1,3 @@
-//global.prevX = 0;
-//global.prevY = 0;
-
-
 //~*~*~*~*~*~*~Code from Trenton*~*~*~*~*~*~*~
 hspd = 0;
 vspd = 0;
@@ -9,7 +5,7 @@ vspd = 0;
 //state = move_state();
 playerStats();
 face = 0;
-steps = 100;
+steps = 400;
 global.lastRoom = room;
 globalvar currentEnemy;
 currentEnemy = slime;

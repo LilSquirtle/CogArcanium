@@ -3,13 +3,13 @@ Debug_Shortcuts();
 //~*~*~*~*~*~*~Code from Trenton*~*~*~*~*~*~*~
 if (!instance_exists(objectFade)){
 	if(keyboard_check_pressed(ord("P"))&&(room!=pauseRoom)&&(room!=battle)){
-		global.playerTileX= tilex;
+		global.playerTileX = tilex;
 		global.playerTileY = tiley;
 		moving = false;
 		fadeout(pauseRoom,c_white,.05,x,y);
 	}
 	if(keyboard_check_pressed(ord("P"))&&(room==pauseRoom)){
-		global.playerTileX= tilex;
+		global.playerTileX = tilex;
 		global.playerTileY = tiley;
 		moving = false;
 		fadeout(Overworld,c_white,.05,x,y);
@@ -20,7 +20,7 @@ if(moving && !instance_exists(objectFade))
 	var rng = irandom(steps);
 	if((rng == steps) && (steps <= 850))
 	{
-		global.playerTileX= tilex;
+		global.playerTileX = tilex;
 		global.playerTileY = tiley;
 		global.lastRoom = room;
 		moving = false;
@@ -46,7 +46,7 @@ if(delay > 0)
 layerID = layer_get_id("CollisionTiles");
 mapID = layer_tilemap_get_id(layerID);
 
-if(moving)
+if(moving && !instance_exists(objectFade))
 {
 	if(!CanPlayerMove(tilex, tiley, lastDirection))
 	{
@@ -227,10 +227,3 @@ lastTiletype = tiletype;
 camera_set_view_pos(view_camera[0], x - 240 / 2, y - 160 / 2);
 
 
-//open pauseMenu + saves player position
-//if(keyboard_check_pressed(ord("P")) && (room == Overworld)) 
-//{
-//	global.prevX = x/16;
-//	global.prevY = y/16;
-//	room_goto(pauseRoom);
-//}
