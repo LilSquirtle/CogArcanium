@@ -1,0 +1,1 @@
+game_save(button_load_game.save_file)
