@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "462d33a2-a2e2-45e4-b758-9a977687515c",
+            "Value": {
+                "id": "1bc2e13a-444b-4d59-acab-1ab26fcb0ba5",
+                "resourcePath": "rooms\\cave_secret\\cave_secret.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "479c756c-72cf-4c14-be12-bf55a068d68c",
             "Value": {
                 "id": "e64805e6-9782-4077-86af-6f302726ae6b",
@@ -311,6 +319,14 @@
             }
         },
         {
+            "Key": "a9de00ad-e86d-415d-9a97-1e9553b6c1f2",
+            "Value": {
+                "id": "3e303d21-ce31-444a-8049-b0286327eb0a",
+                "resourcePath": "rooms\\cave_home_in_a_hole\\cave_home_in_a_hole.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b14943fd-fa54-4ed4-9819-81ab4805fa35",
             "Value": {
                 "id": "0a9a99c6-96d8-4a9f-ab8e-40fd6b693254",
@@ -396,6 +412,14 @@
                 "id": "986cd332-b9eb-433f-8c53-f1a0a212b462",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fbce3316-64cb-4887-87bb-b7c4715f010f",
+            "Value": {
+                "id": "4e78b455-aacc-45ac-bb81-be79b8c65568",
+                "resourcePath": "rooms\\cave_north_next\\cave_north_next.yy",
+                "resourceType": "GMRoom"
             }
         }
     ],
