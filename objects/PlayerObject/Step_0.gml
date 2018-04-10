@@ -3,21 +3,27 @@ Debug_Shortcuts();
 //~*~*~*~*~*~*~Code from Trenton*~*~*~*~*~*~*~
 if (!instance_exists(objectFade)){
 	if(keyboard_check_pressed(ord("P"))&&(room!=pauseRoom)&&(room!=battle)){
-		global.prevX = x/16;
-		global.prevY = y/16;
+		global.playerTileX= tilex;
+		global.playerTileY = tiley;
+		moving = false;
 		fadeout(pauseRoom,c_white,.05,x,y);
 	}
 	if(keyboard_check_pressed(ord("P"))&&(room==pauseRoom)){
-		global.prevX = x/16;
-		global.prevY = y/16;
+		global.playerTileX= tilex;
+		global.playerTileY = tiley;
+		moving = false;
 		fadeout(Overworld,c_white,.05,x,y);
 	}
 }
-if(moving)
+if(moving && !instance_exists(objectFade))
 {
 	var rng = irandom(steps);
 	if((rng == steps) && (steps <= 850))
 	{
+		global.playerTileX= tilex;
+		global.playerTileY = tiley;
+		global.lastRoom = room;
+		moving = false;
 		fadeout(battle,c_white,.025,x,y);
 		
 		steps = 1000;
@@ -28,13 +34,6 @@ if(moving)
 	}
 }
 //~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-//this needs fixed---------------------
-if(room == MainArea_Loc1)
-{
-	x = 59;
-	y = 169;
-}
-//--------------------------------------
 
 dt = delta_time / 1000000;
 

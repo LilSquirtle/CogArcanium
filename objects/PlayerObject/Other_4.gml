@@ -1,3 +1,3 @@
 if (room!=battle){
-	lastRoom=room;
+	global.lastRoom=room;
 }

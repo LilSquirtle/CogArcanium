@@ -10,7 +10,7 @@ if (win==1){
 	}
 }
 else if (win==2){
-	textBox("You ran away like a complete loser!","Congratulations!","You are bad at video games!","Hooray");
+	textBox("You ran away like a complete loser!");
 }
 else if (win==3){
 	textBox("The "+string(currentEnemy.enemyName)+" ran away!", "That is the complete opposite of what you wanted!");

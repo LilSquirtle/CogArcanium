@@ -1,7 +1,5 @@
-//global.playerTileX = 105;
-//global.playerTileY = 75;
-global.prevX = 0;
-global.prevY = 0;
+//global.prevX = 0;
+//global.prevY = 0;
 
 
 //~*~*~*~*~*~*~Code from Trenton*~*~*~*~*~*~*~
@@ -12,7 +10,7 @@ vspd = 0;
 playerStats();
 face = 0;
 steps = 100;
-lastRoom = room;
+global.lastRoom = room;
 globalvar currentEnemy;
 currentEnemy = slime;
 //~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
