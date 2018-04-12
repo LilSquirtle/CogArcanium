@@ -5,7 +5,7 @@
     "name": "button_save_game",
     "eventList": [
         {
-            "id": "87fb2a2e-a63b-4a8a-a244-a6ae4206ceb5",
+            "id": "9ec0383d-6441-430d-8c3d-5b01c9c0ef0c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "5fbd75b2-68f4-44c4-8506-fe8cf38a447b"
         },
         {
-            "id": "622e7c71-3241-45f0-a306-cb7253a73d9c",
+            "id": "d04e0bce-45bb-4471-94e3-4bbb5a0d0394",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "5fbd75b2-68f4-44c4-8506-fe8cf38a447b"
         },
         {
-            "id": "c8d8abac-f219-4f4e-b659-a55ad6b838b7",
+            "id": "74bbabc1-ac5a-48c6-be64-990a5e1e37c8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "5fbd75b2-68f4-44c4-8506-fe8cf38a447b"
         },
         {
-            "id": "082fcb1a-ae45-4316-86b8-e51719f77618",
+            "id": "9838d33e-86b1-4472-847c-799a22bb1e3e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -45,7 +45,7 @@
             "m_owner": "5fbd75b2-68f4-44c4-8506-fe8cf38a447b"
         },
         {
-            "id": "cc6d54e1-1820-4c32-99ee-541af81f6c42",
+            "id": "da230f4a-801d-4659-8c68-3a71f62a957b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

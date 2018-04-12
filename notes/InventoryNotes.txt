@@ -1,0 +1,56 @@
+Inventory System Docs
+
+Inventory Usage:
+	-Honestly pretty basic right now so will run through what each script is aiming for.
+
+In Inventory scripts group:
+
+	-inv_init(): The initialization of the inv array and a max of how many different items it
+		can hold. Has 2 args, 1st being the item number in the array and the second being either the
+		item ID (0) or the amount of that item (1)
+	
+	-inv_data_items(): This is where the item array is initialized as well as data for all the items that
+		would be within the game. 1st arg of the array is the item placement within the array,
+		2nd arg is for each of the fields for that item: 
+			ID = 0 : the items ID usually held within a variable in this script
+			NAME = 1 : in-game name for the item
+			DESC = 2 : a short description of the item
+			PRICE = 3 : general price the item would have (not sure if we are using this???)
+			EFFECT = 4 : effect of the item; typically statistical effects but should be usable
+				if something like poison is being implemented
+	
+	-inv_add(item_name, amount_to_add): Pretty straight-forward, adds an item of the name given to the
+		inv array of the given amount. used for item pick-ups, prizes, etc.
+		
+	-inv_remove(item_name, amount_to_remove): Removes an item of the name given from the inv array of
+		the given amount. useful for item usage, dropping unwanted items, etc. (maybe for equiping 
+		too?)
+		
+	-inv_show(): I was using this to test out the other methods of the inventory scripts so I imagine
+		this will get changed based on the menu system in the future
+		
+		
+In ItemUsageTesting group:
+	
+	-init_stats_for_testing(): Was using this so that I could test out the use_item script with just
+		simple health potions so probably not too useful
+			
+	-use_item(item_name): Got some item usage started, only accounts for health potions right now
+		though (though we don't have much items here just yet but usage for them would be added in
+		the future)
+		
+		(I do have to note here that the variables that the health potions go by may need changed
+		here in order to be useful for the actual player)
+		
+	-stats_show_testing(): I needed a script where i could test and see that the use_item was working
+		so this should be based on the game's drawing 
+		
+The objects here were specifically so that I could test the actual scripts functionality so no need for
+those
+
+Pretty simple start for inventory scripts, will add to this as we hone in on what items and 
+such we want in the game. If there is any optimization for these that anyone knows about that I don't
+I would be glad to hear about! (inv_data_items is mainly what I'm thinking may need it cause it seems
+like it will be super long with more items later)
+
+		

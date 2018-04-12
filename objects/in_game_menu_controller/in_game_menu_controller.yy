@@ -5,7 +5,7 @@
     "name": "in_game_menu_controller",
     "eventList": [
         {
-            "id": "54453dda-d126-44ce-a92b-f75853447a99",
+            "id": "f0269c72-d2f6-46f1-9af5-7f3f62cafd14",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

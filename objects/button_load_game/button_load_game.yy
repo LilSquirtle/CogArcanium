@@ -5,7 +5,7 @@
     "name": "button_load_game",
     "eventList": [
         {
-            "id": "b42d2ee2-f2fb-4070-b6b0-6b7f3b3d6ff1",
+            "id": "0b71824f-43b2-4e81-bcff-8e615b0c5010",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "82e2ec34-40dd-4a4f-a077-19c459057604"
         },
         {
-            "id": "7c1d0de3-256a-4ca1-8434-c241dcad76f8",
+            "id": "6bf91744-5c48-4507-b38d-d4a162e80314",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "82e2ec34-40dd-4a4f-a077-19c459057604"
         },
         {
-            "id": "253029e6-ff0b-4c2f-a59d-22c139548936",
+            "id": "aecd25d8-1a01-45c8-86ac-3a1f8f68f180",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "82e2ec34-40dd-4a4f-a077-19c459057604"
         },
         {
-            "id": "4202d7c3-ab63-4aee-a1c0-e08eabadfc6a",
+            "id": "c3e62a3f-6942-4c71-8372-4a154780f628",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -45,7 +45,7 @@
             "m_owner": "82e2ec34-40dd-4a4f-a077-19c459057604"
         },
         {
-            "id": "a8384139-80f2-4454-a258-0fd15624bf5c",
+            "id": "03f8aa1b-2195-4112-86a3-ab1e60cfe5ff",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -55,7 +55,7 @@
             "m_owner": "82e2ec34-40dd-4a4f-a077-19c459057604"
         },
         {
-            "id": "ca338d00-a0d8-4b3e-9feb-292e8da8b9f5",
+            "id": "7aa7d313-feee-4ca8-85a1-4281dbd4c529",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

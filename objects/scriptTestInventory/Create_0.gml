@@ -1,0 +1,3 @@
+//creating items arrays...
+inv_init();
+inv_data_items();

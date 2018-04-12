@@ -5,7 +5,7 @@
     "name": "button_exit",
     "eventList": [
         {
-            "id": "17ef8e8c-8ed9-4da3-9a53-6b76d28e0cc5",
+            "id": "9fc5d1de-7696-432b-b100-5bbb0f0bd9b5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "db3f15fd-771e-4741-a073-8bea175f985d"
         },
         {
-            "id": "154c4e0d-f6ee-43e8-94bc-a9a0cb8cd610",
+            "id": "9d55cfb1-0bde-4a48-88a8-45b58dc3685a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "db3f15fd-771e-4741-a073-8bea175f985d"
         },
         {
-            "id": "cf719a2b-1039-47b3-a735-7e8538b16526",
+            "id": "036acefe-11ba-4dde-83e2-4f95b0206101",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "db3f15fd-771e-4741-a073-8bea175f985d"
         },
         {
-            "id": "becd2bb4-0774-40ac-9ca4-c868a4a35cb4",
+            "id": "9a95fac9-2317-4969-8575-28e81db66f80",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
