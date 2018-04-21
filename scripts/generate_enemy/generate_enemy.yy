@@ -1,8 +1,8 @@
 {
-    "id": "fbb92c63-528d-4249-aa22-ecd36fb06519",
+    "id": "40ed78ea-b799-4cd1-92bf-dd5925ca89bb",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "enemy_map",
+    "name": "generate_enemy",
     "IsCompatibility": false,
     "IsDnD": false
 }
