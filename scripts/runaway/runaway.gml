@@ -1,0 +1,1 @@
+fightOutcome=2;

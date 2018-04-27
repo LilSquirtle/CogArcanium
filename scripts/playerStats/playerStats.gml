@@ -1,0 +1,14 @@
+globalvar playerLevel;
+playerLevel=1;
+globalvar playerHealth;
+playerHealth=10;
+globalvar playerMaxHealth;
+playerMaxHealth=10;
+globalvar playerDamage;
+playerDamage=3;
+globalvar playerSpeed;
+playerSpeed=2;
+globalvar playerXP;
+playerXP=0;
+globalvar playerNextLevel;
+playerNextLevel=10;

@@ -5,7 +5,7 @@
     "name": "Terrain2Tileset",
     "auto_tile_sets": [
         {
-            "id": "71d8073e-5982-4d33-8d77-5322ce86e5d0",
+            "id": "18d93f88-a646-4909-bdd0-0a54c9d030aa",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "id": "8de00fd4-7023-4ae7-99ee-1d3bbbd74f7d",
+            "id": "06ed1bd9-e1aa-4d23-9ccd-b633f5f24d1a",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "id": "33985536-e2ff-4629-a744-bf6a39cd0fcd",
+            "id": "183a3a23-7b49-43e1-aea1-bd0b64511bae",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,
@@ -80,7 +80,7 @@
             ]
         },
         {
-            "id": "bff171a9-769a-4cda-8bb5-ff8b8aa6ee8b",
+            "id": "3b872218-bce9-44bc-abba-a12ad3d64e8c",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "id": "f3db0feb-7281-499f-8009-79cb0c724e16",
+            "id": "e58ee130-0140-43d3-ab4b-7c245f905479",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,

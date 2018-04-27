@@ -1,0 +1,6 @@
+Most of the combat stuff is in the objectArrow class
+currentEnemy is the enemy that will be fought in the encounter, it is set whenever the player collides with spawners
+don't overlap spawners, it breaks things
+moveState and objectPlayer have a lot of the move code and the initiate encounter stuff
+battle is the room that the battles actually take place
+there's probably a lot of specific references that will need to be changed, so good luck

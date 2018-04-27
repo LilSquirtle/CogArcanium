@@ -5,7 +5,7 @@
     "name": "GlobalManager",
     "eventList": [
         {
-            "id": "e17d4b2e-13a5-40fc-8ecf-6f4109090b9e",
+            "id": "8a400971-949a-4bd9-9896-7c0a104dacce",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
