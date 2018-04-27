@@ -1,12 +1,27 @@
 Debug_Shortcuts();
 
+if distance_to_object(PlayerObject) < 10
+{
+	speaking = true;
+}
+else
+{
+	speaking = false;
+}
+
 dt = delta_time / 1000000;
 
 if(delay > 0)
 {
 	delay -= dt;
-	return;
 }
+else
+{
+	randomize()
+	delay = irandom(10);
+	move_choice = irandom(4);
+}
+
 
 layerID = layer_get_id("CollisionTiles");
 mapID = layer_tilemap_get_id(layerID);
@@ -74,62 +89,62 @@ if(moving && !instance_exists(objectFade))
 }
 else
 {
-	if(keyboard_check(vk_up))
+	if(move_choice == UP)
 	{
 		moveRemaining = minimumMove;
 		image_speed = animationSpeed;
-		sprite_index = sprNPC1_WalkUp;
+		sprite_index = sprites[0];
 		lastDirection = UP;
 		moving = true;
 		moveAmount = 0;
 		tiley -= 1;
 	}
-	else if(keyboard_check(vk_down))
+	else if(move_choice == DOWN)
 	{
 		moveRemaining = minimumMove;
 		image_speed = animationSpeed;
-		sprite_index = sprNPC1_WalkDown;
+		sprite_index = sprites[1];
 		lastDirection = DOWN;
 		moving = true;
 		moveAmount = 0;
 		tiley += 1;
 	}
-	else if(keyboard_check(vk_right))
+	else if(move_choice == RIGHT)
 	{
 		moveRemaining = minimumMove;
 		image_speed = animationSpeed;
-		sprite_index = sprNPC1_WalkRight;
+		sprite_index = sprites[2];
 		lastDirection = RIGHT;
 		moving = true;
 		moveAmount = 0;
 		tilex += 1;
 	}
-	else if(keyboard_check(vk_left))
+	else if(move_choice == LEFT)
 	{	
 		moveRemaining = minimumMove;
 		image_speed = animationSpeed;
-		sprite_index = sprNPC1_WalkLeft;
+		sprite_index = sprites[3];
 		lastDirection = LEFT;
 		moving = true;
 		moveAmount = 0;
 		tilex -= 1;
 	}	
-	if(keyboard_check(vk_nokey))
+	if(move_choice == 4)
 	{
 		image_speed = 0;
 		switch(lastDirection)
 		{
 			case RIGHT:
-				sprite_index = sprNPC1_IdleRight;
+				sprite_index = sprites[4];
 				break;
 			case LEFT:
-				sprite_index = sprNPC1_IdleLeft;
+				sprite_index = sprites[5];
 				break;
 			case UP:
-				sprite_index = sprNPC1_IdleUp;
+				sprite_index = sprites[6];
 				break;
 			case DOWN:
-				sprite_index = sprNPC1_IdleDown;
+				sprite_index = sprites[7];
 				break;
 		}
 	}
@@ -137,6 +152,3 @@ else
 
 tiletype = GetTileType(mapID, ResolvePlayerLocation(tilex), ResolvePlayerLocation(tiley));
 lastTiletype = tiletype;
-
-
-

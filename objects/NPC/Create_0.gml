@@ -1,4 +1,5 @@
 // Initialization
+randomize()
 UP = 0
 RIGHT = 1
 DOWN = 2
@@ -8,14 +9,18 @@ animationSpeed = 0.25;
 moving = false;
 minimumMove = 16;
 moveRemaining = 0;
-delay = 0.1;
+delay = irandom(10);
 moveAmount = 0;
 tiletype = -1;
 lastTiletype = -1;
-walkSpeed = 10;
-tilex = self.x / 32;
-tiley = self.y / 32;
+walkSpeed = 1 + irandom(1);
+move_choice =  irandom(4);
+speaking = false;
 
+tilex = self.xstart / 16;
+tiley = self.ystart / 16;
 x = ResolvePlayerLocation(tilex);
 y = ResolvePlayerLocation(tiley);
 image_speed = 0;
+
+var sprites;

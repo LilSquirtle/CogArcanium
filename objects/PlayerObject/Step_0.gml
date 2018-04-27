@@ -1,39 +1,39 @@
 Debug_Shortcuts();
 
-//~*~*~*~*~*~*~Code from Trenton*~*~*~*~*~*~*~
-if (!instance_exists(objectFade)){
-	if(keyboard_check_pressed(ord("P"))&&(room!=pauseRoom)&&(room!=battle)){
-		global.playerTileX = tilex;
-		global.playerTileY = tiley;
-		moving = false;
-		fadeout(pauseRoom,c_white,.05,x,y);
-	}
-	if(keyboard_check_pressed(ord("P"))&&(room==pauseRoom)){
-		global.playerTileX = tilex;
-		global.playerTileY = tiley;
-		moving = false;
-		fadeout(Overworld,c_white,.05,x,y);
-	}
-}
-if(moving && !instance_exists(objectFade))
-{
-	var rng = irandom(steps);
-	if((rng == steps) && (steps <= 850))
-	{
-		global.playerTileX = tilex;
-		global.playerTileY = tiley;
-		global.lastRoom = room;
-		moving = false;
-		fadeout(battle,c_white,.025,x,y);
+////~*~*~*~*~*~*~Code from Trenton*~*~*~*~*~*~*~
+//if (!instance_exists(objectFade)){
+//	if(keyboard_check_pressed(ord("P"))&&(room!=pauseRoom)&&(room!=battle)){
+//		global.playerTileX = tilex;
+//		global.playerTileY = tiley;
+//		moving = false;
+//		fadeout(pauseRoom,c_white,.05,x,y);
+//	}
+//	if(keyboard_check_pressed(ord("P"))&&(room==pauseRoom)){
+//		global.playerTileX = tilex;
+//		global.playerTileY = tiley;
+//		moving = false;
+//		fadeout(Overworld,c_white,.05,x,y);
+//	}
+//}
+//if(moving && !instance_exists(objectFade))
+//{
+//	var rng = irandom(steps);
+//	if((rng == steps) && (steps <= 850))
+//	{
+//		global.playerTileX = tilex;
+//		global.playerTileY = tiley;
+//		global.lastRoom = room;
+//		moving = false;
+//		fadeout(battle,c_white,.025,x,y);
 		
-		steps = 1000;
-	}
-	else
-	{
-		steps--;
-	}
-}
-//~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+//		steps = 1000;
+//	}
+//	else
+//	{
+//		steps--;
+//	}
+//}
+////~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 
 dt = delta_time / 1000000;
 

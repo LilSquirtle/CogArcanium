@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0b82ae33-61e6-4f72-a46b-44419e18912a",
+            "Value": {
+                "id": "633960ec-484b-4f4b-be8d-d4e1d5a47805",
+                "resourcePath": "objects\\objNPC5\\objNPC5.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ba0f16d-a727-43fa-8d8a-beac62134730",
             "Value": {
                 "id": "0e4feeef-d375-40ed-ae83-c876d3d878ea",
@@ -351,6 +359,14 @@
             }
         },
         {
+            "Key": "35496589-d054-4c38-b2d0-b9a1956e1874",
+            "Value": {
+                "id": "ec8f0755-710c-4336-8fbc-a017ce9c1cbc",
+                "resourcePath": "objects\\objNPC4\\objNPC4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "36452540-3480-4af0-929d-9f66908b44cd",
             "Value": {
                 "id": "389cb739-fa2b-43b6-80d0-79f723b8d7af",
@@ -399,6 +415,14 @@
             }
         },
         {
+            "Key": "3d1d38be-9dc8-42cf-9513-ec052f186cb1",
+            "Value": {
+                "id": "dc46dd87-243a-4698-a41f-05b278d5f69b",
+                "resourcePath": "views\\3d1d38be-9dc8-42cf-9513-ec052f186cb1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3e3ac619-083a-4e00-b95a-a2bd4ab81d2a",
             "Value": {
                 "id": "590d5538-a0b3-4caf-9d9c-ac9acec1f196",
@@ -443,6 +467,14 @@
             "Value": {
                 "id": "b2329d0b-693a-4738-b72d-161e4d5689af",
                 "resourcePath": "objects\\enemySpawner3\\enemySpawner3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "42e5cb80-5b6a-4eb4-a2e9-ba1b9413c75a",
+            "Value": {
+                "id": "968f3389-d574-452c-bd5e-fd9ea1967330",
+                "resourcePath": "objects\\objNPC6\\objNPC6.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -618,7 +650,7 @@
             "Key": "5505e065-3ce3-4358-a5e7-08f013c75d55",
             "Value": {
                 "id": "539cebe9-8a6f-4fd6-aafc-ad75713e922c",
-                "resourcePath": "objects\\NPC1\\NPC1.yy",
+                "resourcePath": "objects\\NPC\\NPC.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -636,6 +668,14 @@
                 "id": "353219cf-f6b8-442c-85fb-87a1bd678d07",
                 "resourcePath": "tilesets\\terrain3_tileset\\terrain3_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "56522ed2-1cfa-4491-82b1-f64221e3c7d8",
+            "Value": {
+                "id": "ac0f7ce6-e3bd-41aa-b889-e093bbf38730",
+                "resourcePath": "objects\\objNPC1\\objNPC1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -700,6 +740,14 @@
                 "id": "f1e0debf-f822-4014-a843-e4efd73b73dd",
                 "resourcePath": "scripts\\init_stats_for_testing\\init_stats_for_testing.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6757b9c4-c3b5-48b9-9e1e-89913061dd15",
+            "Value": {
+                "id": "5f918245-41d3-41ec-b57a-623c50753cda",
+                "resourcePath": "fonts\\fntNPC\\fntNPC.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -855,6 +903,14 @@
             }
         },
         {
+            "Key": "805bdfc7-edcb-4d0a-81d6-321d85394979",
+            "Value": {
+                "id": "c8f48545-171c-4e63-8af9-b8720385ade2",
+                "resourcePath": "objects\\objNPC2\\objNPC2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "81e23822-d158-4104-bd72-9210815ab33d",
             "Value": {
                 "id": "c6668bb8-5909-44ee-b247-090d184670b2",
@@ -892,6 +948,14 @@
                 "id": "78b1d971-80a7-430e-8213-0f6999abe16c",
                 "resourcePath": "sprites\\sprNPC5_IdleLeft\\sprNPC5_IdleLeft.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8a3c9065-42f3-4849-a4ef-effa821e96f3",
+            "Value": {
+                "id": "2ec9035a-eff9-4023-a769-3efad7e0ec5d",
+                "resourcePath": "views\\8a3c9065-42f3-4849-a4ef-effa821e96f3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1475,6 +1539,14 @@
             "Value": {
                 "id": "fee65c35-adb3-4f1b-82ba-4dc25bc6b355",
                 "resourcePath": "objects\\enemySpawner2\\enemySpawner2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e0d43bb7-624d-48a7-893d-e6461ac6c7ae",
+            "Value": {
+                "id": "d1d2ee80-77d5-47bf-81f4-02096729169f",
+                "resourcePath": "objects\\objNPC3\\objNPC3.yy",
                 "resourceType": "GMObject"
             }
         },
