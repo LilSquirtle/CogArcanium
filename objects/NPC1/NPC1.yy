@@ -2,7 +2,7 @@
     "id": "5505e065-3ce3-4358-a5e7-08f013c75d55",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "NPC",
+    "name": "NPC1",
     "eventList": [
         {
             "id": "b6dff5ba-9cda-48f2-869e-533be9bea63a",
@@ -43,16 +43,6 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "5505e065-3ce3-4358-a5e7-08f013c75d55"
-        },
-        {
-            "id": "e1ff7291-db10-4426-8707-ed7fbc29e7fa",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 7,
-            "m_owner": "5505e065-3ce3-4358-a5e7-08f013c75d55"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -73,6 +63,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "72441c7d-543e-4524-8856-2eef1420080e",
+    "spriteId": "ae17047c-1152-4c81-b7a0-51d8445b2264",
     "visible": true
 }
