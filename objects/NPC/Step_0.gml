@@ -1,8 +1,9 @@
 Debug_Shortcuts();
 
-if distance_to_object(PlayerObject) < 13
+if distance_to_object(PlayerObject) < 11
 {
 	speaking = true;
+	move_choice = 4;
 }
 else
 {
@@ -11,6 +12,7 @@ else
 		randomize();
 		speak_choice = irandom(5);
 		speaking = false;
+		delay = irandom(2);
 	}
 	
 }
@@ -25,7 +27,10 @@ else
 {
 	randomize()
 	delay = irandom(10);
-	move_choice = irandom(4);
+	if speaking == false
+	{
+		move_choice = irandom(4);
+	}
 }
 
 
