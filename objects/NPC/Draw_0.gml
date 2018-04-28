@@ -1,9 +1,10 @@
 draw_self();
-if speaking
+if speaking == true
 {
 	// Debug
 	draw_set_font(fntNPC);
-	draw_text(x - 22, y - 12, "S u p  d u d e !");
+	message = messages[speak_choice];
+	draw_text(x  - string_length(message) / 2, y - 12, message);
 }
 draw_sprite(shadowSprite, image_index, x + 9, y + 6);
 draw_self();

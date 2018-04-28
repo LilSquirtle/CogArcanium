@@ -1,12 +1,18 @@
 Debug_Shortcuts();
 
-if distance_to_object(PlayerObject) < 10
+if distance_to_object(PlayerObject) < 13
 {
 	speaking = true;
 }
 else
 {
-	speaking = false;
+	if speaking == true
+	{
+		randomize();
+		speak_choice = irandom(5);
+		speaking = false;
+	}
+	
 }
 
 dt = delta_time / 1000000;

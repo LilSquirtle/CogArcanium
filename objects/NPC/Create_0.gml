@@ -16,6 +16,7 @@ lastTiletype = -1;
 walkSpeed = 1 + irandom(1);
 move_choice =  irandom(4);
 speaking = false;
+speak_choice = irandom(5);
 
 tilex = self.xstart / 16;
 tiley = self.ystart / 16;
@@ -24,3 +25,4 @@ y = ResolvePlayerLocation(tiley);
 image_speed = 0;
 
 var sprites;
+var messages;
