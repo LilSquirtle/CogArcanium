@@ -31,11 +31,27 @@
     },
     "resources": [
         {
+            "Key": "084448c1-860e-4e16-90fd-a8245da59a19",
+            "Value": {
+                "id": "b7ebfe86-1fae-4872-91ca-57e272ee5f87",
+                "resourcePath": "scripts\\MegatonHit\\MegatonHit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "09dd1a74-b2f4-4ceb-9cfd-b0c6fc907930",
             "Value": {
                 "id": "cc901d0d-35b4-4c3c-99a9-371893c1bb22",
                 "resourcePath": "views\\09dd1a74-b2f4-4ceb-9cfd-b0c6fc907930.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "114e73d6-4e1c-473a-b125-bc0bc6248915",
+            "Value": {
+                "id": "0918db6b-8076-4cfb-838e-515f2f5fa135",
+                "resourcePath": "scripts\\MagicBlade\\MagicBlade.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -79,6 +95,14 @@
             }
         },
         {
+            "Key": "25380823-6fb4-40e7-b97b-7c0565d60708",
+            "Value": {
+                "id": "9448cad9-89da-4765-a3e2-2cdce53f6f20",
+                "resourcePath": "scripts\\CrystalMissile\\CrystalMissile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2e67650b-6477-4ac7-9e1c-8e9a55895634",
             "Value": {
                 "id": "0638052e-9fa0-4d29-af9a-4895461cfbb9",
@@ -107,6 +131,14 @@
             "Value": {
                 "id": "10126bd8-f2db-46b3-ba2d-d3160145d3f2",
                 "resourcePath": "scripts\\Ability\\Ability.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4b3c4dbe-a0a3-47fd-b49e-737dc27abfb6",
+            "Value": {
+                "id": "d8b024d8-e901-49ce-9e76-a897c56d87fc",
+                "resourcePath": "scripts\\Amplify\\Amplify.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -183,6 +215,14 @@
             }
         },
         {
+            "Key": "bd6f2dc0-38c0-46d2-a771-7335f2b70b1a",
+            "Value": {
+                "id": "48e35b29-48cd-4d57-8427-ff150e1f8100",
+                "resourcePath": "scripts\\DefenseBoost\\DefenseBoost.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c0d1fb94-176b-4ba2-a335-08198cd852c2",
             "Value": {
                 "id": "0a233425-2f99-449a-b522-ce45250713b6",
@@ -223,6 +263,14 @@
             }
         },
         {
+            "Key": "f21cb89b-8f02-4a3a-a0c7-8fd289f9114e",
+            "Value": {
+                "id": "a78af515-b264-4196-8d95-ae4094ffefbc",
+                "resourcePath": "scripts\\Firestorm\\Firestorm.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "efa7197e-2f0e-4206-9815-d6d697a23470",
@@ -245,7 +293,13 @@
         "57b29696-10e5-4de6-95f8-365d92ed83fb",
         "9aa3f930-fe49-4306-ad79-9cb0d991dbbc",
         "476bf6d6-74b9-435f-b089-b456fbd9774a",
-        "7b333b1b-d724-4ac6-a901-c1f67c0a0e2f"
+        "7b333b1b-d724-4ac6-a901-c1f67c0a0e2f",
+        "bd6f2dc0-38c0-46d2-a771-7335f2b70b1a",
+        "114e73d6-4e1c-473a-b125-bc0bc6248915",
+        "084448c1-860e-4e16-90fd-a8245da59a19",
+        "f21cb89b-8f02-4a3a-a0c7-8fd289f9114e",
+        "4b3c4dbe-a0a3-47fd-b49e-737dc27abfb6",
+        "25380823-6fb4-40e7-b97b-7c0565d60708"
     ],
     "tutorial": ""
 }
