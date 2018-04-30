@@ -1,18 +1,18 @@
 {
-    "id": "b7571256-b9a2-4b5d-8f87-05e567fa0bfb",
+    "id": "bc54166f-432d-4637-893e-970fc4f0fdda",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "in_game_menu_controller",
+    "name": "character_infoPanel",
     "eventList": [
         {
-            "id": "f0269c72-d2f6-46f1-9af5-7f3f62cafd14",
+            "id": "e10db4d7-9e75-4e38-8ef5-289b867c9298",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 27,
-            "eventtype": 10,
-            "m_owner": "b7571256-b9a2-4b5d-8f87-05e567fa0bfb"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "bc54166f-432d-4637-893e-970fc4f0fdda"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,22 +31,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "6c541121-92ac-4642-9fc7-2703c123832c",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "True",
-            "varName": "isShowing",
-            "varType": 3
-        }
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

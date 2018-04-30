@@ -9,7 +9,8 @@
         "cd64ebe0-7047-4786-95ae-3ebc4d5ec607",
         "addf3d27-4dec-450f-bd85-cdac9f02ab01",
         "5fbd75b2-68f4-44c4-8506-fe8cf38a447b",
-        "b7571256-b9a2-4b5d-8f87-05e567fa0bfb"
+        "7f457a23-44af-4ac4-b22d-ab4d5ab5f0f6",
+        "bc54166f-432d-4637-893e-970fc4f0fdda"
     ],
     "filterType": "GMObject",
     "folderName": "ryan_objects",

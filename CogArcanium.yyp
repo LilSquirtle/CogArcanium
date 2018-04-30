@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "7f457a23-44af-4ac4-b22d-ab4d5ab5f0f6",
+            "Value": {
+                "id": "64bc8b79-f2f9-4422-adcb-ba468840cf22",
+                "resourcePath": "objects\\button_return\\button_return.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "81e23822-d158-4104-bd72-9210815ab33d",
             "Value": {
                 "id": "c6668bb8-5909-44ee-b247-090d184670b2",
@@ -863,14 +871,6 @@
             }
         },
         {
-            "Key": "b7571256-b9a2-4b5d-8f87-05e567fa0bfb",
-            "Value": {
-                "id": "ee7dc176-57a8-487d-a6ea-563acb7a79d6",
-                "resourcePath": "objects\\in_game_menu_controller\\in_game_menu_controller.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b821dd4e-d6df-4689-905a-f42663dfd542",
             "Value": {
                 "id": "fc04c784-d40f-48ee-8f1a-b913538f7fbf",
@@ -892,6 +892,14 @@
                 "id": "7e62cb00-5e61-4368-9035-1d935bb7b863",
                 "resourcePath": "notes\\MergedChanges.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "bc54166f-432d-4637-893e-970fc4f0fdda",
+            "Value": {
+                "id": "5cf4625f-e2d9-4891-9eab-41e7eb49b22e",
+                "resourcePath": "objects\\character_infoPanel\\character_infoPanel.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1140,6 +1148,14 @@
                 "id": "6fbe793b-ad77-44d3-90f0-3de83bd03de1",
                 "resourcePath": "rooms\\cave_north_next\\cave_north_next.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "fc84124b-d94f-4bf1-a678-d0c12bcccb8f",
+            "Value": {
+                "id": "6fe9edbb-723b-40e1-a114-00c60fdea826",
+                "resourcePath": "sprites\\button_return_sprite\\button_return_sprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
