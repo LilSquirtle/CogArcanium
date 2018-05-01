@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0b0eee31-44cf-4415-a076-0266afdb47f5",
+            "Value": {
+                "id": "172e40fe-4d28-4910-a26a-5ef496f4274a",
+                "resourcePath": "objects\\combatant_object\\combatant_object.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b82ae33-61e6-4f72-a46b-44419e18912a",
             "Value": {
                 "id": "0fdee634-df2c-4061-96d2-047e46502f85",
@@ -164,6 +172,14 @@
                 "id": "3a29269a-72d7-4e9a-a05b-b780054ddb2c",
                 "resourcePath": "sprites\\sprNPC1_WalkDown\\sprNPC1_WalkDown.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "16255e3d-fbed-4424-9e97-0aca4202eb20",
+            "Value": {
+                "id": "f3578fcd-da79-4f1d-8db3-e9fec7001ffc",
+                "resourcePath": "views\\16255e3d-fbed-4424-9e97-0aca4202eb20.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -455,6 +471,22 @@
             }
         },
         {
+            "Key": "4021399a-f398-4e7b-84f5-2304801aae1c",
+            "Value": {
+                "id": "54715392-aa59-454c-a903-5516bfc12d29",
+                "resourcePath": "views\\4021399a-f398-4e7b-84f5-2304801aae1c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "40ed78ea-b799-4cd1-92bf-dd5925ca89bb",
+            "Value": {
+                "id": "f9be4f7f-7588-4708-b787-39cec2de7d44",
+                "resourcePath": "scripts\\generate_enemy\\generate_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "418b4ad9-27da-412e-a83a-d7380044d00d",
             "Value": {
                 "id": "8b3ffc52-aa42-4163-b08d-f1c9a16a9c01",
@@ -668,6 +700,14 @@
                 "id": "e86a6495-82a3-4c6a-a328-35c263bb1d3c",
                 "resourcePath": "scripts\\Debug_Shortcuts\\Debug_Shortcuts.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "55ec03fb-8a4d-4ccd-a1c8-d469a807c17c",
+            "Value": {
+                "id": "4375aa5b-f205-4aa4-8c5a-941f98e1d768",
+                "resourcePath": "views\\55ec03fb-8a4d-4ccd-a1c8-d469a807c17c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1375,14 +1415,6 @@
             }
         },
         {
-            "Key": "c44e18ef-b3a9-45f2-919a-a60922a3aec7",
-            "Value": {
-                "id": "05b630b8-2020-4747-8e27-78c9c8548bf9",
-                "resourcePath": "rooms\\Overworld_old\\Overworld_old.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "c6149e2f-1511-478c-a0a7-1e5e347ad8ed",
             "Value": {
                 "id": "c50cf200-2d56-4532-95b1-3a1a1ef1427e",
@@ -1776,6 +1808,7 @@
         "bdb7e112-18c6-4ddb-9405-27b8c640de8b",
         "4b09ec6f-6df8-42a1-8496-234ce50d6e57",
         "e4514c41-3f59-48c6-9d20-f198e73f1431",
+        "40ed78ea-b799-4cd1-92bf-dd5925ca89bb",
         "552ea347-9893-45e1-b1c0-ccf201f0c17c"
     ],
     "tutorial": ""
