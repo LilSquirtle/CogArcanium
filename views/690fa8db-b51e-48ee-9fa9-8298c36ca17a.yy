@@ -13,7 +13,8 @@
         "d965e5a9-db7b-4c11-bcfb-acd3bd7889ad",
         "6ad6c7b5-52e0-4068-8b17-ad16b9a036cc",
         "ad9fbf36-0d54-4512-98fd-f447df6877ea",
-        "3710d990-583e-4112-96bd-0440be33b2b9"
+        "3710d990-583e-4112-96bd-0440be33b2b9",
+        "aee2617a-b34d-4006-b482-b1f72841cfc7"
     ],
     "filterType": "GMSprite",
     "folderName": "trenton_sprites",

@@ -9,7 +9,7 @@ if (win==1){
 	}
 }
 else if (win==2){
-	textBox("You ran away like a complete loser!");
+	textBox("You ran away like a complete loser!","Congratulations!","You are bad at video games!","Hooray");
 }
 else if (win==3){
 	textBox("They all ran away!", "That is the complete opposite of what you wanted!");

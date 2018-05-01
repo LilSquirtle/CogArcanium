@@ -8,7 +8,8 @@ face = 0;
 steps = 400;
 global.lastRoom = room;
 globalvar currentEnemy;
-currentEnemy = slime;
+currentEnemy=ds_list_create();
+ds_list_set(currentEnemy,0,slime);
 //~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 
 image_speed = 0;

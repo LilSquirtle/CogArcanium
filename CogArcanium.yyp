@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "174f8632-5191-4798-a3e2-5b79d8a04cf4",
+            "Value": {
+                "id": "1a879077-0ba7-4120-bd8f-6e5b0e8465ae",
+                "resourcePath": "sprites\\downSprite\\downSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1778579f-fbd4-457f-8319-e6c5d346a0bf",
             "Value": {
                 "id": "7b5f5bdf-e97c-4359-b1de-d96033080eec",
@@ -471,6 +479,14 @@
             }
         },
         {
+            "Key": "4020b119-2876-401b-ba85-faa1c4dd356f",
+            "Value": {
+                "id": "d28668f0-17b1-4d47-aceb-e70b0bebf69a",
+                "resourcePath": "scripts\\winScreen1\\winScreen1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4021399a-f398-4e7b-84f5-2304801aae1c",
             "Value": {
                 "id": "54715392-aa59-454c-a903-5516bfc12d29",
@@ -497,7 +513,7 @@
         {
             "Key": "42d21490-88b0-46f6-a9cb-79cf103471eb",
             "Value": {
-                "id": "b2329d0b-693a-4738-b72d-161e4d5689af",
+                "id": "6979d5bc-6cce-4e38-884d-5cceec87121c",
                 "resourcePath": "objects\\enemySpawner3\\enemySpawner3.yy",
                 "resourceType": "GMObject"
             }
@@ -1047,6 +1063,14 @@
             }
         },
         {
+            "Key": "93307bea-0379-4c0d-b1cc-890a818c4bca",
+            "Value": {
+                "id": "00fc129b-7c8f-4e28-b905-2ef863f262cd",
+                "resourcePath": "scripts\\enemyTurn1\\enemyTurn1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "94f4d2b5-986c-4edf-88a9-7eeaa104656a",
             "Value": {
                 "id": "5ced9eb6-a4bb-4f54-9aaf-178d75e9a8a7",
@@ -1220,6 +1244,14 @@
                 "id": "e952036f-2e4a-49ef-a494-c4bdca9e1766",
                 "resourcePath": "views\\ae3a0422-b7c3-4093-8371-da33c371a1a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aee2617a-b34d-4006-b482-b1f72841cfc7",
+            "Value": {
+                "id": "3aa27065-cbf2-4a06-a347-23990c5e4881",
+                "resourcePath": "sprites\\sprite15\\sprite15.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1415,11 +1447,27 @@
             }
         },
         {
+            "Key": "c3adbb68-bcb0-40dc-ab8a-ca1b7754d94a",
+            "Value": {
+                "id": "c9a931cc-aa2b-41cd-8c87-f5b1e72e83d2",
+                "resourcePath": "scripts\\attack1\\attack1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c6149e2f-1511-478c-a0a7-1e5e347ad8ed",
             "Value": {
                 "id": "c50cf200-2d56-4532-95b1-3a1a1ef1427e",
                 "resourcePath": "sprites\\sprNPC6_IdleRight\\sprNPC6_IdleRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c97e5f9e-b470-448f-9983-2357236eb5c2",
+            "Value": {
+                "id": "85089cc2-dae9-4bc9-97b0-2640d26dbcc2",
+                "resourcePath": "objects\\noEnemy\\noEnemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1551,9 +1599,17 @@
             }
         },
         {
+            "Key": "ddfbcb74-137e-4a30-8141-4b7e14453a05",
+            "Value": {
+                "id": "94576c64-1eb9-4e43-a52d-074ced02a003",
+                "resourcePath": "scripts\\spawnEnemies1\\spawnEnemies1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e06b0d05-3264-4be6-ab7b-1983922ccddd",
             "Value": {
-                "id": "fee65c35-adb3-4f1b-82ba-4dc25bc6b355",
+                "id": "a3e6b9d1-badc-48c2-8ef0-0ead5356ebb9",
                 "resourcePath": "objects\\enemySpawner2\\enemySpawner2.yy",
                 "resourceType": "GMObject"
             }
@@ -1596,6 +1652,14 @@
                 "id": "31c1f270-bc62-4d3c-906a-753815cff24b",
                 "resourcePath": "views\\e7e780d6-87f0-4833-b19d-0f521fe73be9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9df03e5-1c48-4d68-893a-ee2f74dc3e13",
+            "Value": {
+                "id": "dd1218af-82e8-403c-95d7-63d7edbf1820",
+                "resourcePath": "objects\\objectArrow1\\objectArrow1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1761,7 +1825,7 @@
         {
             "Key": "ffa488e7-9a0b-4f22-b514-1cec8e46735e",
             "Value": {
-                "id": "36fa83fd-59ca-453c-b0f8-d7cf49af2b89",
+                "id": "7ba4c0c6-31e0-4482-a2cb-1021fb301043",
                 "resourcePath": "objects\\enemySpawner1\\enemySpawner1.yy",
                 "resourceType": "GMObject"
             }
@@ -1809,7 +1873,11 @@
         "4b09ec6f-6df8-42a1-8496-234ce50d6e57",
         "e4514c41-3f59-48c6-9d20-f198e73f1431",
         "40ed78ea-b799-4cd1-92bf-dd5925ca89bb",
-        "552ea347-9893-45e1-b1c0-ccf201f0c17c"
+        "552ea347-9893-45e1-b1c0-ccf201f0c17c",
+        "ddfbcb74-137e-4a30-8141-4b7e14453a05",
+        "c3adbb68-bcb0-40dc-ab8a-ca1b7754d94a",
+        "93307bea-0379-4c0d-b1cc-890a818c4bca",
+        "4020b119-2876-401b-ba85-faa1c4dd356f"
     ],
     "tutorial": ""
 }
