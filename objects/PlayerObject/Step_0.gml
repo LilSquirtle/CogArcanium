@@ -5,14 +5,9 @@ if (!instance_exists(objectFade)){
 	if(keyboard_check_pressed(ord("P"))&&(room!=pauseRoom)&&(room!=battle)){
 		global.playerTileX = tilex;
 		global.playerTileY = tiley;
+		global.lastRoom = room;
 		moving = false;
 		fadeout(pauseRoom,c_white,.05,x,y);
-	}
-	if(keyboard_check_pressed(ord("P"))&&(room==pauseRoom)){
-		global.playerTileX = tilex;
-		global.playerTileY = tiley;
-		moving = false;
-		fadeout(Overworld,c_white,.05,x,y);
 	}
 }
 if(moving && !instance_exists(objectFade))
@@ -25,7 +20,6 @@ if(moving && !instance_exists(objectFade))
 		global.lastRoom = room;
 		moving = false;
 		fadeout(battle,c_white,.025,x,y);
-		
 		steps = 1000;
 	}
 	else
